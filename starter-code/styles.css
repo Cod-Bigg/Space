@@ -1,0 +1,216 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav .navbarnavbar-expand-lgnavbar-lightbg-light {
+  background-image: url("https://i.ibb.co/RPJkk7T/stars-2.jpg");
+}
+
+body {
+  background-image: url("https://i.ibb.co/5YCnbhG/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.navbar-nav {
+  margin-left: 55%;
+}
+
+.navbar-nav a {
+  margin-left: 3%;
+}
+
+.planet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10%;
+  margin-left: 15%;
+}
+
+.planet-img {
+  width: 300px;
+  height: 300px;
+}
+
+.planet-overview {
+  padding-left: 5%;
+}
+
+.planet-overview p {
+  text-align: justify;
+  width: 85%;
+  line-height: 2em;
+  letter-spacing: .1em;
+}
+
+.planet-overview button {
+  margin: 3%;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  width: 75%;
+}
+
+.planet-overview #planet-source a {
+  text-decoration: none;
+}
+
+.planet-overview button:hover {
+  background: #6D2ED5;
+}
+
+.planet-facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 350px;
+}
+
+.text {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.planet-space {
+  width: 200px;
+  border: 1px solid grey;
+}
+
+@media only screen and (max-width: 1300px) {
+  .navbar-nav {
+    margin-left: 45%;
+  }
+  .planet {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .navbar-nav {
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  h1 {
+    margin-left: 3%;
+  }
+  .navbar-nav {
+    margin-left: 30%;
+  }
+  .planet {
+    margin-left: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .planet-img {
+    margin-bottom: 20%;
+    margin-left: 40%;
+  }
+  .planet-overview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 300px;
+    padding-left: 3%;
+  }
+  .planet-source-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 75%;
+    margin-bottom: 70%;
+    width: 10%;
+  }
+  .planet-overview p {
+    width: 300px;
+    padding-right: 50px;
+  }
+  .planet-img {
+    height: 200px;
+    width: 200px;
+  }
+  .planet-info-text button {
+    width: 500px;
+  }
+  .planet-facts {
+    margin-bottom: 170px;
+  }
+  .planet-overview button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar-nav{
+        margin-left: 300px;
+    }
+  .planet{
+      margin-right: 73%;
+  }
+  .planet-img{
+    margin-left: 80%;
+  }
+  .navbar-toggle-icon{
+      margin-right: 50px;
+  }
+  .planet-facts {
+      display: flex;
+    margin-top: 20px;
+    margin-left: 10%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            align-content: space-between;
+            font-size: 15px;
+  }
+  .planet-info-text {
+    padding-bottom: 50px;
+  }
+  .planet-overview {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 650px;
+    margin-left: 50%;
+  }
+  .planet-overview button {
+    width: 250px;
+    margin-bottom: 15%;
+  }
+  .planet-revolution{
+      padding: 30px;
+  }
+  .planet-revolution p:first-child{
+      margin-right: 50px;
+  }
+
+  #rotation, #planet-rotation, #revolution, #planet-revolution, #radius, #planet-radius, #temp, #planet-temp {
+    display: inline;
+  }
+  h1 {
+    margin-left: 75%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
